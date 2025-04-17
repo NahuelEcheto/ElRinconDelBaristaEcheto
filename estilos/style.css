@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #DBBEA1;
+}
+
+/* Inicio del header del Index  */
+
+
+.barra-inicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+/* Fin del header del Index */
+
+/* Inicio del main del Index */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A37B73;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.466), rgba(0,0,0,0.473)), url(../img/cup-coffee-with-heart-drawn-foam.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 10px;
+    color: white;
+}
+
+.div-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    border-radius: 15px;
+    border: 4px solid #3F292B;
+    background-color: #3F292B;
+    margin: 25px;
+}
+
+/* Fin del main del Index */
+
+/* Inicio del main de Cafes */
+
+.titulo-cafes {
+    margin: 30px;
+    padding: 30px;
+}
+
+.container-cafes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    row-gap: 60px;
+    column-gap: 60px;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 20rem;
+}
+/* Fin del main de Cafes */
+
+/* Inicio del main de Tortas */
+
+.titulo-tortas {
+    margin: 30px;
+    padding: 30px;
+}
+
+/* Fin del main de tortas */
+
+/* Inicio del main de Nosotros */
+/* Fin del main de Nosotros */
+
+
+/* Inicio del main de Contacto */
+.titulo-contacto {
+    margin: 20px;
+    padding: 20px;
+}
+
+.parrafo-contacto {
+    margin-bottom: 40px;
+}
+/* Fin del main de Contacto */
+
+
+/* Inicio del footer */
+
+.footer  {
+    background-color: #DBBEA1;
+}
+
+.redes {
+    width: 40px;
+    height: 40px;
+}
+
+/* Fin del footer */

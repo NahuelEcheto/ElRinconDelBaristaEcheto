@@ -67,8 +67,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
     padding: 10px;
     color: white;
 }
@@ -78,22 +78,19 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 20vw;
-    height: 60vh;
+    width: 20%;
+    height: 28rem;
     padding: 10px;
     border-radius: 15px;
     border: 4px solid #3F292B;
     background-color: #3F292B;
-    margin: 25px;
 }
 
 .imagen-home {
-    width: 9rem;
-    height: 9rem;
+    width: 50%;
     margin-top: 15%;
     margin-bottom: 15%;
 }
-
 
 
 /* Fin del main del Index */
@@ -101,8 +98,9 @@ header {
 /* Inicio del main de Cafes */
 
 .titulo-cafes {
-    margin: 30px;
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 3rem;
 }
 
 .container-cafes {
@@ -117,9 +115,55 @@ header {
     margin-bottom: 100px;
 }
 
-.card {
+.cafe {
     width: 20rem;
+    height: 20rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.27);
+    border: 0 solid white;
 }
+
+.mi--cafe1 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-espresso.jpg");
+}
+
+.mi--cafe2 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-americano.jpg");
+}
+
+.mi--cafe3 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-capuchino.jpg");
+}
+
+.mi--cafe4 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-con-leche.jpg");
+}
+
+.mi--cafe5 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-latte.jpg");
+}
+
+.mi--cafe6 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/cafe-mocca.jpg");
+}
+
 /* Fin del main de Cafes */
 
 /* Inicio del main de Tortas */
@@ -127,6 +171,89 @@ header {
 .titulo-tortas {
     margin: 30px;
     padding: 30px;
+    font-size: 3rem;
+}
+
+.container-tortas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    row-gap: 60px;
+    column-gap: 60px;
+    margin-bottom: 100px;
+}
+
+.tortas {
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.27);
+    border: 0 solid white;
+}
+
+.mi--torta1 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-brownie-limon.jpg");
+}
+
+.mi--torta2 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-brownie.jpg");
+}
+
+.mi--torta3 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-budin-zanahoria.jpg");
+}
+
+.mi--torta4 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-budin-chocolate.jpg");
+}
+
+.mi--torta5 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-dona.jpg");
+}
+
+.mi--torta6 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-dona-chocolate.jpg");
+}
+
+.mi--torta7 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-muffins-frambuesa.jpg");
+}
+
+.mi--torta8 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-muffins-chips.jpg");
+}
+
+.mi--torta9 {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    background-image: url("../img/torta-medialuna.jpg");
 }
 
 /* Fin del main de tortas */
@@ -159,3 +286,11 @@ header {
 }
 
 /* Fin del footer */
+
+/* Inicio de medias queries */
+
+@media (max-with: 764px) {
+    .div-home p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,28 @@
+header {
+    nav {
+        .logo {
+            height: 70px;
+            width: 70px;
+            padding: 10px;
+        }
+        #navbarNav {
+            .navbar-nav {
+                gap: 50px;
+                font-weight: 500;
+                font-size: 1.5rem;
+                .nav-item {
+                    .nav-link {
+                        color:black;
+                        padding: 1rem;
+                        &:hover {
+                            background-color: $colorTarjeta;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}

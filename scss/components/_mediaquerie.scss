@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+    .main {
+        section {
+            .nuestra-historia {
+                margin: 2rem 3rem;
+                padding: 3rem;
+                .texto-nosotros {
+                    h3 {
+                        font-size: 2.3rem;
+                    }
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            .invitacion {
+                margin: 2rem 3rem;
+                padding: 3rem;
+                .texto-invitacion {
+                    h3 {
+                        font-size: 2.3rem;
+                    }
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .main {
+        section {
+            .nuestra-historia {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column-reverse;
+                .imagen-historia {
+                    height: 60%;
+                    width: 60%;
+                }
+                .texto-nosotros {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .invitacion {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column-reverse;
+                .imagen-interior {
+                    height: 60%;
+                    width: 60%;
+                }
+                .texto-invitacion {
+                    margin: 2rem;
+                    h3 {
+                        font-size: 2rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }  
+}

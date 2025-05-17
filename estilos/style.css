@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
 }
 
 body {
@@ -63,7 +62,7 @@ header nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   margin-top: 9rem;
   margin-bottom: 9rem;
   padding: 10px;

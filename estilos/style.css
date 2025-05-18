@@ -456,5 +456,47 @@ header nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
     font-size: 1rem;
   }
 }
+@media (max-width: 553px) {
+  .main .container-cafes .tarjeta-cafe .dorso h3 {
+    font-size: 1.2rem;
+  }
+  .main .container-cafes .tarjeta-cafe .dorso p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 438px) {
+  .main .container-cafes {
+    width: 100%;
+  }
+  .main .container-tortas {
+    width: 100%;
+  }
+  .main section .nuestra-historia {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  .main section .nuestra-historia .texto-nosotros h3 {
+    font-size: 1.2rem;
+  }
+  .main section .nuestra-historia .texto-nosotros p {
+    font-size: 0.8rem;
+  }
+  .main section .invitacion {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  .main section .invitacion .texto-invitacion {
+    margin: 1rem;
+  }
+  .main section .invitacion .texto-invitacion h3 {
+    font-size: 1.2rem;
+  }
+  .main section .invitacion .texto-invitacion p {
+    font-size: 0.8rem;
+  }
+  .main .container-formulario {
+    padding: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

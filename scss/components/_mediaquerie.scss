@@ -74,3 +74,71 @@
         }
     }  
 }
+
+@media (max-width: 553px) {
+    .main {
+        .container-cafes {
+            .tarjeta-cafe {
+                .dorso {
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 438px) {
+    .main {
+        .container-cafes {
+            width: 100%;
+        }
+    }
+
+    .main {
+        .container-tortas {
+            width: 100%;
+        }
+    }
+
+    .main {
+        section {
+            .nuestra-historia {
+                margin: 1rem;
+                padding: 0.5rem;
+                .texto-nosotros {
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            .invitacion {
+                margin: 1rem;
+                padding: 0.5rem;
+                .texto-invitacion {
+                    margin: 1rem;
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .main {
+        .container-formulario {
+            padding: 3rem;
+        }
+    }
+}
+
